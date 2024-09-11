@@ -1,0 +1,318 @@
+/* savbar style starts */
+.navbar {
+  background-color: rgba(231, 243, 247, 0.887);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar > .nav-brand {
+  font-size: 150%;
+  letter-spacing: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar > .nav-link {
+  display: flex;
+  margin: 10px;
+  justify-content: space-around;
+  width: 25%;
+  align-items: center;
+}
+.navbar > .nav-link > #nav-item2 {
+  background-color: rgb(55, 193, 214);
+  padding: 10px;
+  border-radius: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  color: white;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar > .nav-link > #nav-item1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(81, 81, 81);
+  letter-spacing: 3px;
+}
+/* .navbar style ends */
+/* home section starts */
+.home {
+  display: flex;
+  height: 55vh;
+  background: linear-gradient(
+    to right,
+    rgb(163, 201, 229),
+    rgb(175, 203, 224),
+    rgb(206, 211, 215)
+  );
+}
+.home > .home-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: left;
+}
+.home > .home-left > #text {
+  font-size: 50px;
+}
+.home > .home-left > #link {
+  height: fit-content;
+  width: fit-content;
+  background-color: rgb(55, 193, 214);
+  padding: 10px;
+  border-radius: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+}
+.home > .home-right {
+  height: 80%;
+  align-items: center;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  background-image: url("./wedimg.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-top: 30px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 20px;
+  border-width: 5px;
+}
+/* home section ends */
+/* explore section starts */
+.explore {
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  background-color: rgba(212, 235, 243, 0.887);
+}
+.explore > .top {
+  font-size: 40px;
+  justify-content: center;
+  align-items: start;
+  margin-top: 10px;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.explore > .bottom {
+  justify-content: center;
+  display: flex;
+}
+.explore > .bottom > #cir {
+  background-color: rgb(16, 69, 100);
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  align-items: center;
+  margin: 10px;
+  margin-top: 200px;
+  color: aliceblue;
+  justify-content: center;
+  display: flex;
+}
+.explore > .bottom > img {
+  height: 400px;
+  width: 300px;
+  background-size: contain;
+  align-items: end;
+  justify-content: center;
+  margin: 10px;
+  border-style: solid;
+  border-color: azure;
+  border-radius: 20px;
+  border-width: 5px;
+}
+.explore > .button {
+  height: fit-content;
+  width: fit-content;
+  background-color: rgb(55, 193, 214);
+  padding: 10px;
+  border-radius: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
+  margin-top: 20px;
+}
+/* explore section ends */
+/* create part starts */
+.create {
+  background-color: rgba(20, 91, 133, 0.927);
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.create > .text {
+  margin: auto;
+  margin-top: 60px;
+  font-size: 45px;
+}
+.create > .why {
+  display: inline;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+.create > .why > .p {
+  display: inline-block;
+  margin: 20px;
+  margin-top: 10px;
+}
+.create > .why > .p > img {
+  height: 100px;
+  width: 100px;
+  background-size: contain;
+  border-radius: 50px;
+}
+.create > .why > .p > #h {
+  font-weight: 600;
+}
+.create > .button {
+  height: fit-content;
+  width: fit-content;
+  background-color: rgb(55, 193, 214);
+  padding: 10px;
+  border-radius: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
+  margin-top: 20px;
+}
+/* create part ends */
+/* adding part starts */
+.add {
+  background-color: rgb(223, 204, 208);
+  height: 60vh;
+  display: flex;
+}
+.add > .left {
+  height: 450px;
+  align-items: center;
+  width: 690px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(./addimg.jpg);
+  background-position: center;
+  background-size: contain;
+  margin: 30px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: white;
+  border-width: 5px;
+}
+.add > .right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: right;
+}
+.add > .right > #title {
+  font-size: 50px;
+}
+.add > .right > #small {
+  margin-top: 20px;
+}
+.add > .right > #button {
+  height: fit-content;
+  width: fit-content;
+  background-color: rgb(55, 193, 214);
+  padding: 10px;
+  border-radius: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 30px;
+}
+/* adding part ends */
+/* register part starts */
+.register {
+  background-color: rgba(212, 235, 243, 0.887);
+  height: 60vh;
+  display: flex;
+}
+.register > .left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: left;
+}
+.register > .left > #title {
+  font-size: 50px;
+}
+.register > .left > #small {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.register > .left #button {
+  height: fit-content;
+  width: fit-content;
+  background-color: rgb(55, 193, 214);
+  padding: 10px;
+  border-radius: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+}
+.register > .right {
+  height: 450px;
+  align-items: center;
+  width: 680px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(./regimg.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-top: 30px;
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  border-radius: 20px;
+}
+/* register part ends */
+/* ending part starts */
+.ending {
+  background-color: rgba(20, 91, 133, 0.927);
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.ending > .curs {
+  margin: auto;
+  font-size: 60px;
+  font-weight: lighter;
+  font-family: "Brush Script MT", "Brush Script Std", cursive;
+}
+.ending > .button {
+  height: fit-content;
+  width: fit-content;
+  background-color: rgb(55, 193, 214);
+  padding: 10px;
+  border-radius: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+  margin: auto;
+}
+/* ending part ends */
